@@ -7,3 +7,4 @@ app.get("/", async (req, res) => {
   const result = { msg: "Hello" };
   res.status(200).json(result);
 });
+
